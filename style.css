@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(imagens/fundo.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* INÍCIO CABEÇALHO */
+
+a.navbar-brand img {
+    width: 100px;
+}
+
+div#navegacao ul li a.nav-link {
+    color: black;
+    font-weight: 450;
+    margin: 0 10px;
+}
+
+div#navegacao ul li a.nav-link:hover {
+    font-weight: 500;
+}
+
+div#navegacao ul li a.ativo {
+    font-weight: 500;
+}
+
+@media (max-width: 575px) {
+    a.navbar-brand img {
+        width: 80px;
+    }
+}
+
+/* FIM CABEÇALHO */
+
+/* INÍCIO BODY */
+
+section#principal {
+    height: 80%;
+    color: white;
+}
+
+section#principal div.container {
+    padding-top: 10%;
+}
+
+.banner1 {
+    background: url(imagens/banner-principal/voltara.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner2 {
+    background: url(imagens/fundo.jpeg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner3 {
+    background: url(imagens/banner-principal/salva.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner4 {
+    background: url(imagens/banner-principal/batiza.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner5 {
+    background: url(imagens/banner-principal/cura.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+/* FIM BODY */
+
+/* INÍCIO RODAPÉ */
+
+#rodape {
+    background: white;
+    padding: 100px 0 0 0;
+}
+
+footer#rodape ul.navbar-nav li a {
+    color: black;
+}
+
+footer#rodape ul.navbar-nav li a:hover {
+    font-weight: 500;
+}
+
+footer#rodape img {
+    width: 150px;
+    height: 150px;
+}
+
+/* FIM RODAPÉ */
