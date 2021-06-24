@@ -33,9 +33,81 @@ div#navegacao ul li a.ativo {
     font-weight: 500;
 }
 
+@media (max-width: 992px) {
+    #sobre-nos img {
+        width: 300px!important;
+    }
+}
+
+@media (max-width: 767px) {
+    #principal h1, #principal h2 {
+        font-size: 50px;
+    }
+
+    #principal h3 {
+        font-size: 20px;
+    }
+
+    div#textos-pagina-inicial {
+        text-align: center!important;
+    }
+}
+
+@media (max-width: 609px) {
+    #sobre-nos h1 {
+        font-size: 35px;
+    }
+}
+
 @media (max-width: 575px) {
     a.navbar-brand img {
         width: 80px;
+    }
+}
+
+@media (max-width: 489px) {
+    #sobre-nos h1 {
+        font-size: 30px;
+    }
+    #sobre-nos div div h3 {
+        font-size: 25px;
+    }
+    #sobre-nos div div p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 395px) {
+    #principal h1, #principal h2 {
+        font-size: 40px;
+    }
+
+    #principal h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 309px) {
+    #principal h1, #principal h2 {
+        font-size: 30px;
+    }
+
+    #principal h3 {
+        font-size: 15px;
+    }
+
+    #sobre-nos h1 {
+        font-size: 25px;
+    }
+    #sobre-nos div div h3 {
+        font-size: 20px;
+    }
+    #sobre-nos div div p {
+        font-size: 12px;
+    }
+
+    div#navegacao ul li a {
+        font-size: 12px;
     }
 }
 
@@ -45,11 +117,10 @@ div#navegacao ul li a.ativo {
 
 section#principal {
     height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-}
-
-section#principal div.container {
-    padding-top: 10%;
 }
 
 .banner1 {
@@ -77,6 +148,10 @@ section#principal div.container {
     background-size: cover;
 }
 
+#sobre-nos img {
+    width: 400px;
+}
+
 /* FIM BODY */
 
 /* INÍCIO RODAPÉ */
@@ -97,6 +172,53 @@ footer#rodape ul.navbar-nav li a:hover {
 footer#rodape img {
     width: 150px;
     height: 150px;
+}
+
+@media (max-width: 767px) {
+    div#container {
+        text-align: center;
+        padding: 0 auto;
+        justify-content: center!important;
+    }
+}
+
+@media (max-width: 575px) {
+    div#container h5 {
+        font-size: 15px;
+    }
+
+    div#container ul li a {
+        font-size: 14px;
+    }
+
+    div#container h4 {
+        font-size: 18px;
+    }
+
+    div#container img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+a#imagem-rodape {
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width: 335px) {
+    a#imagem-rodape {
+        display: none!important;
+    }
+}
+
+@media (max-width: 489px) {
+    #final-rodape h5 {
+        font-size: 12px!important;
+    }
+    #final-rodape h6, #final-rodape a {
+        font-size: 10px!important;
+    }
 }
 
 /* FIM RODAPÉ */
